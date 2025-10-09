@@ -4,9 +4,6 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-> "Transforming raw data into intelligent AI solutions that revolutionize business operations through advanced analytics and cutting-edge Generative AI"
-{: .prompt-info }
-
 # About Me 🚀
 
 I'm **Mohamed Aadhil Imam**, a passionate **AI Engineer and Data Scientist** specializing in **Generative AI and Large Language Model development** with **5+ years** of experience building data-driven AI systems. Based in Dubai, UAE, I excel at combining traditional data science methodologies with modern generative AI to create comprehensive, production-ready solutions that deliver measurable business impact.
