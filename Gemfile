@@ -2,9 +2,8 @@
 
 source "https://rubygems.org"
 
+gem "jekyll", "~> 4.3"  # Explicitly add Jekyll for GitHub Pages compatibility
 gem "jekyll-theme-chirpy", "~> 7.0", ">= 7.0.1"
-
-gemspec
 
 gem "html-proofer", "~> 5.0", group: :test
 
