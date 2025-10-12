@@ -1,12 +1,12 @@
 ---
-title: Streamlining GenAI Microservices - Harnessing the Service Layer Pattern
+title: Architecting Reliable LLM Microservices: Service Layer Design Patterns for GenAI APIs
 author: Aadhil Imam
 date: 2025-10-08 14:00:00 +0400
 categories: [AI/ML, DevOps]
 tags: [genai, fastapi, design-patterns, microservices, llm]
 description: Discover how the Service Layer Pattern enhances modularity, testability, and scalability in building GenAI-powered FastAPI microservices for LLM inference.
 image:
-  path: "https://i.redd.it/raflws3wbeif1.png"
+  path: "https://lh3.googleusercontent.com/gg-dl/AJfQ9KR0t9AMe05JZz7d1Nc3rMRxgcnP6pC9twIiYspTHaTIDHVAD0tB340SST7ZLRf7_9aq6FaRLpPygPJurgpnrifTWerhp1hbwbN9nrO7LwLpmagZsIRjIZZoi4hrCMfQqoXg-pSfatHytcfkpbZjH24yY1uG9upyduRzboh84QuYVT-BZA=s1024-rj"
   alt: FastAPI architecture diagram illustrating service layer pattern
 pin: false
 math: false
