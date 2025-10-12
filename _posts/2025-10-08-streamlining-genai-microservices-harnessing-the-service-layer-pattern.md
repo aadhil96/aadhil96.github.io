@@ -6,7 +6,7 @@ categories: [AI/ML, DevOps]
 tags: [genai, fastapi, design-patterns, microservices, llm]
 description: Discover how the Service Layer Pattern enhances modularity, testability, and scalability in building GenAI-powered FastAPI microservices for LLM inference.
 image:
-  path: "https://lh3.googleusercontent.com/gg-dl/AJfQ9KR0t9AMe05JZz7d1Nc3rMRxgcnP6pC9twIiYspTHaTIDHVAD0tB340SST7ZLRf7_9aq6FaRLpPygPJurgpnrifTWerhp1hbwbN9nrO7LwLpmagZsIRjIZZoi4hrCMfQqoXg-pSfatHytcfkpbZjH24yY1uG9upyduRzboh84QuYVT-BZA=s1024-rj"
+  path: "https://travanleo.com/wp-content/uploads/2022/07/1_wvPlEuyPwIux9_WX-eGf9Q.png"
   alt: FastAPI architecture diagram illustrating service layer pattern
 pin: false
 math: false
