@@ -6,7 +6,7 @@ categories: [AI/ML, DevOps]
 tags: [llm, docker, optimization, inference, deployment]
 description: Learn how Docker caching and model preloading can dramatically improve the performance and reliability of LLM-based applications.
 image:
-  path: "assets/img/unnamed.jpg"
+  path: "https://github.com/aadhil96/aadhil96.github.io/blob/4cbb96bf47968709ad2280109054a9256dd21734/assets/img/unnamed.jpg"
   alt: Multi-stage Docker build process for LLM applications
 pin: false
 math: false
