@@ -179,10 +179,10 @@ async def lifespan(app: FastAPI):
     # Startup: Preload model
     model_repo = HuggingFaceRepository("gpt2")
     generation_service = GenerationService(model_repo)
-    print("✅ Model and service initialized.")
+    print(" Model and service initialized.")
     yield
     # Shutdown: Cleanup
-    print("🔄 Cleaning up resources.")
+    print("Cleaning up resources.")
 
 app = FastAPI(lifespan=lifespan)
 
@@ -232,4 +232,4 @@ The Service Layer Pattern transforms chaotic GenAI FastAPI services into robust,
 
 ## Final Thoughts
 
-As GenAI evolves, architectural patterns like this will be crucial for sustainable development. Whether you're building the next AI agent or a simple inference API, start layering your logic today—your future self (and team) will thank you. 🚀
+As GenAI evolves, architectural patterns like this will be crucial for sustainable development. Whether you're building the next AI agent or a simple inference API, start layering your logic today—your future self (and team) will thank you.
