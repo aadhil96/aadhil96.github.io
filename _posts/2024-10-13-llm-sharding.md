@@ -5,7 +5,7 @@ date: 2025-10-13 14:10:00 +0800
 categories: [LLM, GenAI, huggingface]
 tags: [LLM, LLMOps]
 image:
-  path: "https://i.ytimg.com/vi/V9egJMknKtM/maxresdefault.jpg"
+  path: "https://miro.medium.com/v2/resize:fit:1400/1*RzYKM4DyEawiQ_XxMoowxg.png"
   alt: Multi-stage Docker build process for LLM applications
 pin: false
 math: false
