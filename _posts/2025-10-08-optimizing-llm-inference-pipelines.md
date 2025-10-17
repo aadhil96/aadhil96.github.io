@@ -2,7 +2,7 @@
 title: Optimizing LLM Inference Pipelines with Docker Caching and Model Preloading
 author: Aadhil Imam
 date: 2025-10-08 14:00:00 +0400
-categories: [AI/ML, DevOps]
+categories: [LLM, GenAI]
 tags: [llm, docker, optimization, inference, deployment]
 description: Learn how Docker caching and model preloading can dramatically improve the performance and reliability of LLM-based applications.
 image:
