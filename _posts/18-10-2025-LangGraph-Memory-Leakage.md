@@ -1,5 +1,5 @@
 ---
-title: Tackling Memory Leakage in LangGraph: Causes, Detection, and Solutions
+title: Tackling Memory Leakage in LangGraph-Causes, Detection, and Solutions
 author: Aadhil Imam
 date: 2025-10-18 14:00:00 +0400
 categories: [LLM,LangGraph,LLMOps]
