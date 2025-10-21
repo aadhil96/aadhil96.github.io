@@ -123,7 +123,6 @@ print(f"Mean: {stats['mean']:.4f}s")
 print(f"Median: {stats['median']:.4f}s")
 print(f"Range: {stats['min']:.4f}s - {stats['max']:.4f}s")
 ```
-{: file="llm_python_main.py"}
 
 ### Performance Analysis
 
@@ -260,7 +259,7 @@ func main() {
     // (mean, median, std dev, etc.)
 }
 ```
-{: file="llm_go_main.go"}
+
 
 ### Performance Analysis
 
@@ -335,17 +334,6 @@ Unlike the hypothetical ~3-5% difference often cited, real-world testing reveals
 - Optimized standard library vs external dependencies
 - Predictable memory management vs dynamic allocation
 
-### Important Caveat: Sample Size
-
-> **Note**: These results are based on only 2 iterations. For production-grade benchmarking:
-> - Run **100+ iterations** to account for network variance
-> - Test across **different times of day** to capture load patterns
-> - Include **warm-up runs** to eliminate cold-start effects
-> - Consider **outlier removal** for network anomalies
-{: .prompt-info}
-
-With just 2 runs, Go's low variance (0.0021s) is impressive but needs validation at scale. Python's high variance (0.0988s) suggests inconsistency that would likely persist across larger sample sizes.
-
 ### When to Choose Python
 
 **Ideal for:**
@@ -410,23 +398,5 @@ Benchmarking reveals that for LLM API clients, language choice has a **significa
 - **Team expertise and maintenance burden**
 - **Scaling requirements and concurrency needs**
 - **Predictability and SLA requirements**
-
-**Pro Strategy:** Prototype rapidly in Python to validate ideas and iterate on prompts. When scaling to production with high throughput demands, rewrite critical paths in Go for maximum efficiency and reliability.
-
-## Next Steps
-
-Ready to run these benchmarks yourself?
-
-1. **Clone the repository** (hypothetical): `git clone https://github.com/aadhil/groq-bench`
-2. **Set your API key**: `export GROQ_API_KEY=your_key_here`
-3. **Run Python**: `python llm_python_main.py`
-4. **Run Go**: `go run llm_go_main.go`
-
-Consider testing with:
-- Different models (Mixtral, Llama 3.1 70B)
-- Concurrent request patterns
-- Token throughput variability
-- Other providers (OpenAI, Anthropic)
-- Production-ready error handling
 
 In 2025's LLM-powered landscape, systematic benchmarking isn't optional—it's your competitive advantage for building responsive, reliable AI applications.
