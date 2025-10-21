@@ -1,16 +1,16 @@
 ---
 title: "Benchmarking LLM Performance: Python vs Go with Groq API"
 date: 2025-10-21 14:30:00 +0400
-categories: [AI, Performance]
+categories: [AI, LLM,Performance]
 tags: [llm, benchmarking, python, go, groq, performance-testing]
-author: aadhil
+author: Aadhil Imam
 description: "Real-world benchmark comparison of Python and Go clients for LLM APIs using Groq's ultra-fast inference service. Discover which language wins for speed and consistency."
 image:
-  path: /assets/img/posts/llm-benchmark-cover.png
+  path: "https://images.prismic.io/oxylabs-web/ZpBdkx5LeNNTxEVi_2f7d78b5-0162-467d-8ce9-53148f39345c_Go_vs_Python_1200x600_dark.png"
   alt: "Python vs Go performance comparison for LLM API clients"
+pin: false
 math: false
 mermaid: true
-render_with_liquid: false
 ---
 
 ## Introduction: Why Speed Matters in the LLM Era
@@ -430,7 +430,3 @@ Consider testing with:
 - Production-ready error handling
 
 In 2025's LLM-powered landscape, systematic benchmarking isn't optional—it's your competitive advantage for building responsive, reliable AI applications.
-
----
-
-*Questions or improvements? Share your benchmarking results and insights in the comments below.*
