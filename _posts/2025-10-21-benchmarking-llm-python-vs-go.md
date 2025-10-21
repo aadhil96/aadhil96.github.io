@@ -1,5 +1,5 @@
 ---
-title: "Benchmarking LLM Performance: Python vs Go with Groq API"
+title: "Benchmarking LLM Performance: Python vs Go"
 date: 2025-10-21 14:30:00 +0400
 categories: [AI, LLM,Performance]
 tags: [llm, benchmarking, python, go, groq, performance-testing]
