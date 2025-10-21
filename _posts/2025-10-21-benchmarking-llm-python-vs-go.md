@@ -388,7 +388,6 @@ retry = Retry(total=3, backoff_factor=0.3)
 adapter = HTTPAdapter(max_retries=retry, pool_connections=10, pool_maxsize=10)
 session.mount('https://', adapter)
 ```
-{: .nolineno}
 
 ## Conclusion: Strategic Tool Selection
 
@@ -399,4 +398,3 @@ Benchmarking reveals that for LLM API clients, language choice has a **significa
 - **Scaling requirements and concurrency needs**
 - **Predictability and SLA requirements**
 
-In 2025's LLM-powered landscape, systematic benchmarking isn't optional—it's your competitive advantage for building responsive, reliable AI applications.
