@@ -1,10 +1,9 @@
 ---
-title: TOON Python - Efficient Data Encoding for Large Language Models
+title: Efficient Data Encoding for Large Language Models
 date: 2025-11-18 14:30:00 +0400
 categories: [AI, Development]
 tags: [python, llm, optimization, data-encoding]
 author: aadhil
-description: "Real-world benchmark comparison of Python and Go clients for LLM APIs using Groq's ultra-fast inference service. Discover which language wins for speed and consistency."
 image:
   path: /assets/img/posts/llm-benchmark-cover.png
   alt: "Python vs Go performance comparison for LLM API clients"
