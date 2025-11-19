@@ -5,8 +5,8 @@ categories: [AI, Development]
 tags: [python, llm, optimization, data-encoding]
 author: aadhil
 image:
-  path: /assets/img/posts/llm-benchmark-cover.png
-  alt: "Python vs Go performance comparison for LLM API clients"
+  path: "https://cdn.hashnode.com/res/hashnode/image/upload/v1762968459600/03584141-37ae-429d-a999-99ffb93acdcc.png"
+  alt: "Token-Oriented Object Notation"
 math: false
 mermaid: true
 render_with_liquid: false
