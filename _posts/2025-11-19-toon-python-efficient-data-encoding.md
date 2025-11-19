@@ -26,9 +26,9 @@ Think of it as JSON's efficient cousin—it delivers the same information but st
 
 When you're building AI applications, token efficiency isn't just about saving money—it's about performance too. Here's what token savings translate to:
 
-- **Lower API costs** — Fewer tokens = lower bills from OpenAI, Anthropic, or other LLM providers
-- **Faster processing** — Less data to process means quicker responses
-- **Larger context windows** — You can fit more actual data in the same context window
+- **Lower API costs** - Fewer tokens = lower bills from OpenAI, Anthropic, or other LLM providers
+- **Faster processing** - Less data to process means quicker responses
+- **Larger context windows** - You can fit more actual data in the same context window
 
 A real-world test showed compelling results: With a dataset of employees, asking GPT to calculate average salary by department, TOON delivered roughly a 56% reduction in prompt tokens and a noticeable 5-second speed improvement.
 
@@ -138,10 +138,10 @@ print(python_data)  # {'name': 'Alice', 'age': 30}
 
 TOON is particularly useful for:
 
-- **Training data** — Less token overhead for structured training data to fine-tune LLMs
-- **Agent frameworks** — Compact data exchange in Agent frameworks
-- **MCP workflows** — Faster data serialization between the MCP and AI workflow engines
-- **Serverless APIs** — Cost and speed optimization for serverless AI APIs
+- **Training data** - Less token overhead for structured training data to fine-tune LLMs
+- **Agent frameworks** - Compact data exchange in Agent frameworks
+- **MCP workflows** - Faster data serialization between the MCP and AI workflow engines
+- **Serverless APIs** - Cost and speed optimization for serverless AI APIs
 
 ### Example: LLM Prompt with Employee Data
 
@@ -216,4 +216,4 @@ pip install python-toon
 
 - [Official TOON Specification](https://github.com/toon-format/toon)
 - [Python Implementation](https://github.com/xaviviro/python-toon)
-- [TOON Format Documentation](https://mer.vin/2025/11/toon-python-efficient-data-encoding-for-large-language-models/)
+
