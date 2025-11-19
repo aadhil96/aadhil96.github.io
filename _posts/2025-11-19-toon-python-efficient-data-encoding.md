@@ -1,6 +1,6 @@
 ---
 title: Efficient Data Encoding for Large Language Models
-date: 2025-11-18 14:30:00 +0400
+date: 2025-19-18 14:30:00 +0400
 categories: [AI, Development]
 tags: [python, llm, optimization, data-encoding]
 author: aadhil
