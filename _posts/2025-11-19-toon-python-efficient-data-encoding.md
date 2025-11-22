@@ -24,7 +24,7 @@ Think of it as JSON's efficient cousin—it delivers the same information but st
 
 ## Why TOON Matters
 
-When you're building AI applications, token efficiency isn't just about saving money—it's about performance too. Here's what token savings translate to:
+When you're building AI applications, token efficiency isn't just about saving money it's about performance too. Here's what token savings translate to:
 
 - **Lower API costs** - Fewer tokens = lower bills from OpenAI, Anthropic, or other LLM providers
 - **Faster processing** - Less data to process means quicker responses
@@ -71,7 +71,7 @@ Installing TOON for Python is straightforward:
 pip install python-toon
 ```
 
-Or if you prefer the official community-driven implementation:
+Or if you prefer the official community driven implementation:
 
 ```bash
 pip install toon_format
@@ -185,7 +185,7 @@ TOON achieves 73.9% accuracy (vs JSON's 69.7%) while using 39.6% fewer tokens. N
 **Stick with JSON when:**
 - Your data is deeply nested or irregular
 - You need strict schema validation
-- You're working with non-AI APIs
+- You're working with non AI APIs
 - The data structure varies significantly between objects
 
 > A hybrid approach may work best: Keep JSON for your application's data exchange format with APIs, but convert to TOON when sending data to LLMs.
@@ -202,7 +202,7 @@ The `python-toon` package supports:
 
 ## The Bottom Line
 
-TOON isn't trying to replace JSON everywhere—it's a specialized tool for a specific problem: efficiently passing data to LLMs. If you're building AI applications that frequently communicate with language models, especially with structured or tabular data, TOON can significantly reduce your costs and improve performance.
+TOON isn't trying to replace JSON everywhere it's a specialized tool for a specific problem: efficiently passing data to LLMs. If you're building AI applications that frequently communicate with language models, especially with structured or tabular data, TOON can significantly reduce your costs and improve performance.
 
 The setup takes minutes, the API is simple, and the savings are real. In a world where every token literally costs money, TOON gives you a competitive edge.
 
