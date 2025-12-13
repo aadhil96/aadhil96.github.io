@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Simple Guide to MCP Authentication in Python with FastAPI
 date: 2025-12-13 12:00:00 +0400
 categories: [MCP, Python]
