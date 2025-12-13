@@ -1,5 +1,5 @@
 ---
-title: "MCP Authentication in Python with FastAPI
+title: MCP Authentication in Python with FastAPI
 date: 2025-12-13 12:00:00 +0400
 categories: [MCP, Python]
 tags: [mcp, fastapi, python, authentication, ai, api]
