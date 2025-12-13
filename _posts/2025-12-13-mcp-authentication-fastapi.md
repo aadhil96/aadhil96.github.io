@@ -1,16 +1,23 @@
 ---
 title: Simple Guide to MCP Authentication in Python with FastAPI
 date: 2025-12-13 12:00:00 +0400
-categories: [Development, Python]
+categories: [MCP, Python]
 tags: [mcp, fastapi, python, authentication, ai, api]
 description: Learn how to build a secure MCP server using FastAPI with token-based authentication to enable AI agents to interact with your applications safely.
+author: aadhil
+image:
+  path: "https://cdn.analyticsvidhya.com/wp-content/uploads/2025/05/FastAPI-to-MCP.jpg"
+  alt: "FastAPI MCP"
+math: false
+mermaid: true
+render_with_liquid: false
 ---
 
 ## Introduction to MCP and Authentication
 
-The Model Context Protocol (MCP) is an emerging standard that enables AI agents to interact with applications through a secure, context-aware interface. Think of it as an API tailored for AI—allowing seamless automation without custom integrations. Major players like Anthropic, OpenAI, and Google are adopting it to future-proof AI-agent communications.
+The Model Context Protocol (MCP) is an emerging standard that enables AI agents to interact with applications through a secure, context aware interface. Think of it as an API tailored for AI allowing seamless automation without custom integrations. Major players like Anthropic, OpenAI, and Google are adopting it to future proof AI-agent communications.
 
-In this simple guide, we'll build a basic MCP server using FastAPI and add token-based authentication to protect it. This keeps your endpoints secure while letting authorized AI agents access them. We'll skip complex OAuth setups for brevity and focus on a straightforward bearer token approach.
+In this simple guide, we'll build a basic MCP server using FastAPI and add token based authentication to protect it. This keeps your endpoints secure while letting authorized AI agents access them. We'll skip complex OAuth setups for brevity and focus on a straightforward bearer token approach.
 
 By the end, you'll have a running MCP server at `/mcp` that requires a valid token.
 
@@ -141,7 +148,7 @@ If the token is wrong, you'll get a 401 error. Success? Your root endpoint is no
 
 ## Key Components Explained
 
-- **FastAPI-MCP**: Handles the MCP protocol, auto-exposing your routes as AI-friendly tools. It supports SSE for real-time streaming.
+- **FastAPI-MCP**: Handles the MCP protocol, auto exposing your routes as AI friendly tools. It supports SSE for real-time streaming.
 - **HTTPBearer**: Extracts tokens from headers securely.
 - **AuthConfig**: Applies dependencies (like our verifier) to the entire MCP mount point.
 
@@ -152,7 +159,7 @@ No databases or external services needed here, keeping it lightweight.
 
 ## Conclusion
 
-You've now built a simple, authenticated MCP server in under 100 lines of code! This setup secures your FastAPI app for AI agents while following MCP standards. For production, add JWT/OAuth (see the fastapi-mcp docs for examples) and error logging.
+You've now built a simple, authenticated MCP server in under 100 lines of code! This setup secures your FastAPI app for AI agents while following MCP standards. For production, add JWT/OAuth (see the fastapi mcp docs for examples) and error logging.
 
 MCP is poised to revolutionize AI integrations—start experimenting today. Questions? Check the MCP spec or contribute to open-source tools like fastapi-mcp.
 
