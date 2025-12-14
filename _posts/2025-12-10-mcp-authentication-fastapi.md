@@ -1,5 +1,5 @@
 ---
-title: MCP Authentication in Python with FastAPI
+title: Simple Guide to MCP Authentication in Python with FastAPI
 date: 2025-12-10 12:00:00 +0400
 categories: [MCP, Python]
 tags: [mcp, fastapi, python, authentication, ai, api]
@@ -152,8 +152,8 @@ If the token is wrong, you'll get a 401 error. Success? Your root endpoint is no
 - **HTTPBearer**: Extracts tokens from headers securely.
 - **AuthConfig**: Applies dependencies (like our verifier) to the entire MCP mount point.
 
-> **Security Note:** This is a basic hash check—upgrade to JWT for expiration, scopes, and revocation. Always use environment variables for secrets.
-{: .prompt-warning }
+> **Security Note:** This is a basic hash check upgrade to JWT for expiration, scopes, and revocation. Always use environment variables for secrets.
+{: .prompt warning }
 
 No databases or external services needed here, keeping it lightweight.
 
