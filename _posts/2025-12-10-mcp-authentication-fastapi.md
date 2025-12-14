@@ -1,6 +1,6 @@
 ---
 title: MCP Authentication in Python with FastAPI
-date: 2025-12-08 12:00:00 +0400
+date: 2025-12-10 12:00:00 +0400
 categories: [MCP, Python]
 tags: [mcp, fastapi, python, authentication, ai, api]
 description: Learn how to build a secure MCP server using FastAPI with token-based authentication to enable AI agents to interact with your applications safely.
