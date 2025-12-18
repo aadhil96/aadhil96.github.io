@@ -13,9 +13,9 @@ math: false
 mermaid: true
 ---
 
-Large Language Models (LLMs) have revolutionized AI applications—from chatbots and summarizers to enterprise knowledge retrieval systems. However, deploying these models efficiently remains a challenge due to their large file sizes, high memory requirements, and slow startup times.
+Large Language Models (LLMs) have revolutionized AI applications from chatbots and summarizers to enterprise knowledge retrieval systems. However, deploying these models efficiently remains a challenge due to their large file sizes, high memory requirements, and slow startup times.
 
-Two powerful techniques can dramatically improve the performance and reliability of LLM-based applications: **Docker caching** and **model preloading**.
+Two powerful techniques can dramatically improve the performance and reliability of LLM based applications: **Docker caching** and **model preloading**.
 
 This article explores how these strategies work together to optimize LLM inference pipelines for faster builds, lower latency, and more predictable deployments.
 
@@ -33,11 +33,11 @@ Each of these steps can cause:
 - Cold start delays when the container first loads the model into memory
 - Unnecessary compute overhead if the model reloads with every request
 
-Without optimization, these factors can lead to multi-minute build times, high startup latency, and increased cloud infrastructure costs.
+Without optimization, these factors can lead to multi minute build times, high startup latency, and increased cloud infrastructure costs.
 
 ## Step 1: Docker Caching for Faster Builds
 
-Docker caching ensures that layers of your container image—such as installed dependencies and downloaded models—are reused instead of rebuilt every time you deploy.
+Docker caching ensures that layers of your container image—such as installed dependencies and downloaded models are reused instead of rebuilt every time you deploy.
 
 ### Best Practices
 
